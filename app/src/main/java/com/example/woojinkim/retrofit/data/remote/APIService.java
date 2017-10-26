@@ -12,7 +12,7 @@ import retrofit2.http.POST;
 
 public interface APIService {
 
-    @POST("/users/signup")
+    @POST("/users/login")
     @FormUrlEncoded
     Call<Post> savePost(@Field("id") String id,
                         @Field("pwd") String pwd);

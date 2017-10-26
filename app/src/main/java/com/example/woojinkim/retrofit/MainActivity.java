@@ -13,6 +13,8 @@ import com.example.woojinkim.retrofit.data.model.Post;
 import com.example.woojinkim.retrofit.data.remote.APIService;
 import com.example.woojinkim.retrofit.data.remote.ApiUtils;
 
+import org.json.JSONObject;
+
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
